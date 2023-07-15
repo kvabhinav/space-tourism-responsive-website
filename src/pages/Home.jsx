@@ -1,11 +1,8 @@
 import React from "react" 
 
-import backgroundHomeDesktop from '../images/home/backgroundHomeDesktop.jpg'
-
 export default function Home(){
     return(
-        <div className="w-screen h-screen" style={{backgroundImage:`URL(${backgroundHomeDesktop})`}}>
-            {/* <Navbar/> */}
+        <div className="w-screen h-screen homeMobile md:homeTablet  lg:homeDesktop" >
             <h1>Home page</h1>
         </div>
     )

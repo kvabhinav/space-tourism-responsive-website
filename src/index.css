@@ -3,3 +3,50 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+
+    /* Home screen */
+    .homeMobile{
+        background-image: url('../src/images/home/backgroundHomeMobile.jpg')
+    }
+    .homeTablet{
+        background-image: url('../src/images/home/backgroundHomeTablet.jpg');
+    }
+    .homeDesktop{
+        background-image: url('../src/images/home/backgroundHomeDesktop.jpg');
+    }
+
+    /* Crew screen  */
+    .crewMobile{
+        background-image: url('../src/images/crew/backgroundCrewMobile.jpg');
+    }
+    .crewTablet{
+        background-image: url('../src/images/crew/backgroundCrewTablet.jpg');
+    }
+    .crewDesktop{
+        background-image: url('../src/images/crew/backgroundCrewDesktop.jpg');
+    }
+
+    /* Destination screen  */
+    .destinationMobile{
+        background-image: url('./images/destination/backgroundDestinationMobile.jpg');
+    }
+    .destinationTablet{
+        background-image: url('./images/destination/backgroundDestinationTablet.jpg');
+    }
+    .destinationDesktop{
+        background-image: url('./images/destination/backgroundDestinationDesktop.jpg');
+    }
+
+    /* Technology screen  */
+    .technologyMobile{
+        background-image: url('./images/technology/backgroundTechnologyMobile.jpg');
+    }
+    .technologyTablet{
+        background-image: url('./images/technology/backgroundTechnologyTablet.jpg');
+    }
+    .technologyDesktop{
+        background-image: url('./images/technology/backgroundTechnologyDesktop.jpg');
+    }
+}

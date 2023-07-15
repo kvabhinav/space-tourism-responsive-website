@@ -4,7 +4,7 @@ import backgroundTechnologyDesktop from '../images/technology/backgroundTechnolo
 
 export default function Technology(){
     return(
-        <div className="w-screen h-screen" style={{backgroundImage:`URL(${backgroundTechnologyDesktop})`}}>
+        <div className="w-screen h-screen technologyMobile md:technologyTablet lg:technologyDesktop">
             <h1>Technology page</h1>
         </div>
     )
