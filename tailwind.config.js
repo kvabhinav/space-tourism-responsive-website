@@ -6,7 +6,10 @@ module.exports = {
   theme: {
     extend: {
       fontFamily:{
-        nav:['Barlow Condensed']
+        barlow:['Barlow Condensed'],
+        barlow2:['Barlow'],
+        bellefair:['Bellefair'],
+
       }
     },
     screens: {

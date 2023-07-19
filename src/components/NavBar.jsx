@@ -9,15 +9,15 @@ import { useState } from 'react'
 export default function Navbar() {
 
     const [toggle,setToggle]=useState(false)
-
     const location = useLocation()
-    console.log(location.pathname)
 
+    //hamburger menu toggle function
     const toggleMenu=()=>{
         setToggle(prev=>!prev)
     }
+
     return (
-        <div className='w-screen h-20 px-6 md:pl-8 md:px-0 lg:px-0 pt-6 md:pt-0 lg:pt-6 lg:h-20 lg:w-[1385px] absolute top-0 left-0 lg:top-10 lg:left-14 text-white font-nav flex justify-between items-center lg:text-base'>
+        <div className='w-screen h-20 px-6 md:pl-8 md:px-0 lg:px-0 pt-6 md:pt-0 lg:pt-6 lg:h-20 lg:w-[1385px] absolute top-0 left-0 lg:top-10 lg:left-14 text-white font-barlow flex justify-between items-center lg:text-base'>
 
             {/* logo  */}
             <img src={logo} alt='logo' className='w-10 h-10 md:w-12 md:h-12 ' onClick={toggleMenu}></img>
