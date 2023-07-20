@@ -20,7 +20,7 @@ export default function Planets(props){
                     </ul>
                 </div>
                 <h1 className="text-white text-[56px] lg:text-[100px] font-bellefair pt-6 lg:pt-0 ">{props.data.name}</h1>
-                <p className="text-[#D0D6F9] leading-[25px] lg:leading-8 text-[15px] lg:text-[18px] lg:pr-48 text-center lg:text-left mx-24 lg:mx-0">{props.data.description}</p>
+                <p className="text-[#D0D6F9] leading-[25px] lg:leading-8 text-[15px] lg:text-[18px] lg:pr-48 text-center lg:text-left md:mx-24 lg:mx-0">{props.data.description}</p>
                 {/* <hr  className="bg-white h-2"/> */}
                 <div className="flex sm:flex-col md:flex-row justify-center lg:justify-start items-center gap-y-10 md:gap-y-0 md:gap-x-28 w-[335px] md:w-[450px] border-t border-white/20 mt-6 pt-10 md:pt-4 lg:pt-10 md:pb-6 lg:pb-0">
                     <div>
