@@ -16,7 +16,7 @@ export default function Destination() {
     }
 
     return (
-        <div className="w-screen h-screen destinationMobile md:destinationTablet lg:destinationDesktop">
+        <div className="w-screen h-max lg:h-screen destinationMobile md:destinationTablet lg:destinationDesktop">
             {snap.section==="MOON"?<Planets data={planets[0]} planet="MOON" toggles={toggleSection}/>:<></>}
             {snap.section==="MARS"?<Planets data={planets[1]} planet="MARS" />:<></>}
             {snap.section==="EUROPA"?<Planets data={planets[2]} planet="EUROPA"/>:<></>}

@@ -53,10 +53,10 @@
 
     /* destination screen - planet component */
     .activePlanet{
-        @apply underline underline-offset-[14px] decoration-4 decoration-white
+        @apply underline underline-offset-[14px] decoration-4 decoration-white text-[14px] md:text-base tracking-[2.36px] md:tracking-[2.7px] 
     }
 
     .unactivePlanet{
-        @apply hover:underline underline-offset-[14px] decoration-4 decoration-white/20
+        @apply hover:underline underline-offset-[14px] decoration-4 decoration-white/20 text-[14px] md:text-base tracking-[2.36px] md:tracking-[2.7px]
     }
 }
