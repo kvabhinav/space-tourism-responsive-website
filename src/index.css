@@ -51,5 +51,12 @@
         background-image: url('./images/technology/backgroundTechnologyDesktop.jpg');
     }
 
-    
+    /* destination screen - planet component */
+    .activePlanet{
+        @apply underline underline-offset-[14px] decoration-4 decoration-white
+    }
+
+    .unactivePlanet{
+        @apply hover:underline underline-offset-[14px] decoration-4 decoration-white/20
+    }
 }
