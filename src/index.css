@@ -59,4 +59,13 @@
     .unactivePlanet{
         @apply hover:underline underline-offset-[14px] decoration-4 decoration-white/20 text-[14px] md:text-base tracking-[2.36px] md:tracking-[2.7px]
     }
+
+    /* crewSection handling  */
+    .activeCrew{
+        @apply w-[15px] h-[15px] bg-white rounded-full 
+    }
+
+    .unactiveCrew{
+        @apply w-[15px] h-[15px] bg-white/20 hover:bg-white/50 rounded-full cursor-pointer
+    }
 }
