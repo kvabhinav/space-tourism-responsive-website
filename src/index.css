@@ -80,10 +80,10 @@
 
     /* technology page  */
     .technology_Button_active{
-        @apply w-10 h-10 lg:w-20 lg:h-20 bg-white border-2 rounded-full flex justify-center items-center
+        @apply w-10 h-10 md:w-[60px] md:h-[60px] lg:w-20 lg:h-20 bg-white border-2 rounded-full flex justify-center items-center
     }
     .technology_Button_unactive{
-        @apply w-10 h-10 lg:w-20 lg:h-20 bg-transparent border-2 border-white/20 rounded-full hover:border-white flex justify-center items-center
+        @apply w-10 h-10 md:w-[60px] md:h-[60px] lg:w-20 lg:h-20 bg-transparent border-2 border-white/20 rounded-full hover:border-white flex justify-center items-center
     }
 
     .tech_Button_No_active{
